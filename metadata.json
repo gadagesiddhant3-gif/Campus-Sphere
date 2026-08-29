@@ -1,0 +1,8 @@
+{
+  "name": "Campus Sphere",
+  "description": "A modern student skill, gig, mentorship, community, competition, and career ecosystem.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
