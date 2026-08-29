@@ -27,35 +27,35 @@ export const INITIAL_BADGES: Badge[] = [
 ];
 
 export const CURRENT_STUDENT_USER: UserProfile = {
-  id: 'usr_rahul_sharma',
-  name: 'Rahul Sharma',
-  email: 'rahul.cse@iitb.ac.in',
+  id: 'usr_siddhant',
+  name: 'Siddhant',
+  email: 'siddhant.cse@nitandhra.ac.in',
   avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80',
-  college: 'IIT Bombay',
+  college: 'NIT Andhra Pradesh',
   branch: 'Computer Science & Engineering',
   year: '3rd Year',
-  bio: 'Full-stack developer & Python enthusiast. Passionate about helping juniors crack open-source projects, automation, and backend architectures. 3x Hackathon finalist.',
+  bio: 'Full-stack developer & Python enthusiast at NIT Andhra Pradesh. Passionate about helping peers with open-source projects, automation, and backend architectures. 3x Hackathon finalist.',
   isVerifiedStudent: true,
-  verifiedEmailDomain: 'iitb.ac.in',
+  verifiedEmailDomain: 'nitandhra.ac.in',
   role: 'student',
-  reputationScore: 87,
+  reputationScore: 88,
   skills: [
     { name: 'Python', category: 'Software & Development', level: 'Advanced', willingToMentor: true, availability: 'Weekends only', yearsExp: 3 },
     { name: 'Machine Learning', category: 'AI, Data & Emerging Technology', level: 'Intermediate', willingToMentor: true, availability: 'Evenings only', yearsExp: 2 },
-    { name: 'Web Development', category: 'Software & Development', level: 'Intermediate', willingToMentor: true, availability: 'Yes, I\'m available', yearsExp: 2 },
+    { name: 'Web Development', category: 'Software & Development', level: 'Advanced', willingToMentor: true, availability: 'Yes, I\'m available', yearsExp: 2 },
     { name: 'Generative AI', category: 'AI, Data & Emerging Technology', level: 'Intermediate', willingToMentor: false, availability: 'Maybe later', yearsExp: 1 },
     { name: 'Database Management', category: 'Software & Development', level: 'Advanced', willingToMentor: true, availability: 'Weekends only', yearsExp: 2 }
   ],
-  interests: ['Open Source', 'FastAPI Microservices', 'Prompt Engineering', 'Robotics Systems', 'FinTech'],
+  interests: ['FastAPI Microservices', 'Autonomous AI Agents', 'Prompt Engineering', 'Robotics Systems', 'FinTech'],
   portfolio: [
     {
       id: 'p1',
-      title: 'Campus Food Delivery Bot & Web App',
-      description: 'A real-time hostel food ordering chatbot with WebSocket alerts and order queueing used by 450+ campus residents.',
+      title: 'NIT Andhra Campus Food Delivery & Hostel Utility App',
+      description: 'A real-time hostel food ordering bot and web application with WebSocket alerts used by 450+ campus residents.',
       skillUsed: 'Web Development',
       date: 'Jan 2026',
-      link: 'https://github.com/rahul-iitb/campus-eats',
-      githubUrl: 'https://github.com/rahul-iitb/campus-eats',
+      link: 'https://github.com/siddhant-nitap/campus-eats',
+      githubUrl: 'https://github.com/siddhant-nitap/campus-eats',
       imageUrl: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&auto=format&fit=crop&q=80',
       mediaType: 'image',
       category: 'Full-Stack Project'
@@ -63,18 +63,18 @@ export const CURRENT_STUDENT_USER: UserProfile = {
     {
       id: 'p2',
       title: 'Automated Academic Schedule & Exam Scraper',
-      description: 'Python script with BeautifulSoup & Selenium to sync Moodle portal updates into Google Calendar automatically.',
+      description: 'Python script with BeautifulSoup & Selenium to sync NIT Andhra portal updates into Google Calendar automatically.',
       skillUsed: 'Python',
       date: 'Nov 2025',
-      githubUrl: 'https://github.com/rahul-iitb/moodle-sync',
+      githubUrl: 'https://github.com/siddhant-nitap/moodle-sync',
       imageUrl: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&auto=format&fit=crop&q=80',
       mediaType: 'code',
       category: 'Automation'
     },
     {
       id: 'p3',
-      title: 'Campus Fest Video Highlight Reel',
-      description: 'Edited 4k 60fps dynamic aftermovie for Mood Indigo cultural festival with sound design and speed ramping.',
+      title: 'NIT Andhra Fest Video Highlight Reel',
+      description: 'Edited 4k 60fps dynamic aftermovie for college cultural festival with sound design and speed ramping.',
       skillUsed: 'Video Editing',
       date: 'Dec 2025',
       link: 'https://youtube.com',
@@ -125,7 +125,7 @@ export const CURRENT_STUDENT_USER: UserProfile = {
     'Python': [
       { id: 'sj1', skillName: 'Python', monthYear: 'August 2025', title: 'Started Learning Python', description: 'Learned syntax, data structures, OOP fundamentals and virtual environments.', type: 'learning' },
       { id: 'sj2', skillName: 'Python', monthYear: 'October 2025', title: 'Completed Fundamentals Course', description: 'Built CLI utilities, file processors, and solved 120+ LeetCode problems in Python.', type: 'course' },
-      { id: 'sj3', skillName: 'Python', monthYear: 'December 2025', title: 'Built First Automation Project', description: 'Developed Moodle scraper syncing timetables with Google Calendar for 200+ batchmates.', type: 'project' },
+      { id: 'sj3', skillName: 'Python', monthYear: 'December 2025', title: 'Built First Automation Project', description: 'Developed academic portal scraper syncing timetables with Google Calendar for 200+ batchmates.', type: 'project' },
       { id: 'sj4', skillName: 'Python', monthYear: 'January 2026', title: 'Completed Advanced Certification', description: 'Passed PSF Advanced Certification with 96% score covering asyncio & metaprogramming.', type: 'certification' },
       { id: 'sj5', skillName: 'Python', monthYear: 'March 2026', title: 'Started Mentoring Beginners', description: 'Held 1-on-1 peer sessions helping 37 students debug coursework and projects.', type: 'mentoring' }
     ]
@@ -134,7 +134,7 @@ export const CURRENT_STUDENT_USER: UserProfile = {
   totalEarnings: 24500,
   studentsMentoredCount: 37,
   couponsBalance: 4,
-  referralCode: 'RAHUL-IITB-88',
+  referralCode: 'SIDDHANT-NITAP-88',
   referralsCount: 8,
   communityContributionsCount: 34,
   competitionWinsCount: 3,
@@ -148,13 +148,13 @@ export const CURRENT_STUDENT_USER: UserProfile = {
   reviews: [
     {
       id: 'rev1',
-      mentorId: 'usr_rahul_sharma',
-      studentId: 'usr_amit_kumar',
-      studentName: 'Amit Kumar',
-      studentAvatar: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=200&auto=format&fit=crop&q=80',
-      studentCollege: 'IIT Bombay',
+      mentorId: 'usr_siddhant',
+      studentId: 'usr_shivang_kumar',
+      studentName: 'Shivang Kumar',
+      studentAvatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80',
+      studentCollege: 'NIT Andhra Pradesh',
       rating: 5,
-      comment: 'Rahul explained asyncio and API pagination so clearly. He reviewed my GitHub repo and gave actionable feedback!',
+      comment: 'Siddhant explained asyncio and API pagination so clearly. He reviewed my GitHub repo and gave actionable feedback on our campus IoT backend!',
       skill: 'Python Mentorship',
       date: '2 days ago',
       verifiedInteraction: true,
@@ -162,51 +162,37 @@ export const CURRENT_STUDENT_USER: UserProfile = {
     },
     {
       id: 'rev2',
-      mentorId: 'usr_rahul_sharma',
-      studentId: 'usr_priya_patel',
-      studentName: 'Priya Patel',
-      studentAvatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&auto=format&fit=crop&q=80',
-      studentCollege: 'NIT Trichy',
+      mentorId: 'usr_siddhant',
+      studentId: 'usr_amit_kumar',
+      studentName: 'Amit Kumar',
+      studentAvatar: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=200&auto=format&fit=crop&q=80',
+      studentCollege: 'NIT Andhra Pradesh',
       rating: 5,
       comment: 'Super patient mentor! Helped me debug my OpenCV facial recognition pipeline before the college hackathon.',
       skill: 'Machine Learning Mentorship',
       date: '1 week ago',
       verifiedInteraction: true,
       sessionDurationMins: 60
-    },
-    {
-      id: 'rev3',
-      mentorId: 'usr_rahul_sharma',
-      studentId: 'usr_tanmay_joshi',
-      studentName: 'Tanmay Joshi',
-      studentAvatar: 'https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?w=200&auto=format&fit=crop&q=80',
-      studentCollege: 'BITS Pilani',
-      rating: 4.8,
-      comment: 'Great insights on how to structure FastAPI backend for college fest ticketing. Highly recommended!',
-      skill: 'Web Development Mentorship',
-      date: '3 weeks ago',
-      verifiedInteraction: true,
-      sessionDurationMins: 50
     }
   ],
   rating: 4.9,
   isPremium: false,
   joinedDate: 'August 2025',
-  location: 'Mumbai, Maharashtra'
+  location: 'Tadepalligudem, Andhra Pradesh'
 };
 
 export const OTHER_STUDENTS: UserProfile[] = [
   {
-    id: 'usr_priya_patel',
-    name: 'Priya Patel',
-    email: 'priya.ece@nitt.edu',
-    avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&auto=format&fit=crop&q=80',
-    college: 'NIT Trichy',
-    branch: 'Electronics & Communication',
+    id: 'usr_shivang_kumar',
+    name: 'Shivang Kumar',
+    email: 'shivang.ece@nitandhra.ac.in',
+    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80',
+    college: 'NIT Andhra Pradesh',
+    branch: 'Electronics & Communication Engineering',
     year: '4th Year',
-    bio: 'VLSI & Embedded Systems enthusiast. Gold medalist in Texas Instruments Innovation Challenge. Mentoring students in Verilog & STM32.',
+    bio: 'VLSI & Embedded Systems enthusiast at NIT Andhra Pradesh. Gold medalist in Texas Instruments Innovation Challenge. Mentoring students in Verilog, FPGA prototyping, & STM32 firmware.',
     isVerifiedStudent: true,
-    verifiedEmailDomain: 'nitt.edu',
+    verifiedEmailDomain: 'nitandhra.ac.in',
     role: 'mentor',
     reputationScore: 94,
     skills: [
@@ -215,23 +201,33 @@ export const OTHER_STUDENTS: UserProfile[] = [
       { name: 'PCB Design', category: 'Electronics & Engineering', level: 'Advanced', willingToMentor: true, availability: 'Evenings only', yearsExp: 2 },
       { name: 'Verilog', category: 'Electronics & Engineering', level: 'Expert', willingToMentor: true, availability: 'Weekends only', yearsExp: 3 }
     ],
-    interests: ['ASIC Physical Design', 'FPGA Prototyping', 'Robotics Hardware'],
+    interests: ['ASIC Physical Design', 'FPGA Prototyping', 'Robotics Hardware', 'IoT Gateways'],
     portfolio: [
       {
-        id: 'p_priya1',
+        id: 'p_shivang1',
         title: '32-Bit RISC-V Microprocessor Core in Verilog',
-        description: 'Pipelined 5-stage RISC-V CPU core with hazard unit, validated on Xilinx Artix-7 FPGA board.',
+        description: 'Pipelined 5-stage RISC-V CPU core with hazard detection unit, validated on Xilinx Artix-7 FPGA board.',
         skillUsed: 'VLSI Design',
         date: 'Dec 2025',
-        githubUrl: 'https://github.com/priya-ece/riscv-core',
+        githubUrl: 'https://github.com/shivang-nitap/riscv-core',
         imageUrl: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&auto=format&fit=crop&q=80',
         mediaType: 'code',
         category: 'Hardware Architecture'
+      },
+      {
+        id: 'p_shivang2',
+        title: 'IoT Weather Node & Environmental Sensor Grid',
+        description: 'Compact 2-layer ESP32 solar node measuring air quality with MQTT live reporting for campus grounds.',
+        skillUsed: 'Embedded Systems',
+        date: 'Jan 2026',
+        imageUrl: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&auto=format&fit=crop&q=80',
+        mediaType: 'image',
+        category: 'Embedded Systems'
       }
     ],
     certificates: [
       {
-        id: 'c_p1',
+        id: 'c_s1',
         courseName: 'Cadence Certified ASIC Physical Design Professional',
         skill: 'VLSI Design',
         issuingOrg: 'Cadence Design Systems',
@@ -244,191 +240,41 @@ export const OTHER_STUDENTS: UserProfile[] = [
     ],
     skillJourneys: {
       'VLSI Design': [
-        { id: 'sj_p1', skillName: 'VLSI Design', monthYear: 'July 2024', title: 'Digital Circuit Foundations', description: 'Mastered logic design and Boolean synthesis.', type: 'learning' },
-        { id: 'sj_p2', skillName: 'VLSI Design', monthYear: 'Jan 2025', title: 'FPGA Vivado Labs', description: 'Implemented state machines and UART controllers.', type: 'course' },
-        { id: 'sj_p3', skillName: 'VLSI Design', monthYear: 'Aug 2025', title: 'RISC-V Tape-Out Simulation', description: 'Designed 5-stage CPU with 100% test coverage.', type: 'project' },
-        { id: 'sj_p4', skillName: 'VLSI Design', monthYear: 'Nov 2025', title: 'Started Peer Mentoring', description: 'Helped 42 students crack core hardware placement tests.', type: 'mentoring' }
+        { id: 'sj_s1', skillName: 'VLSI Design', monthYear: 'July 2024', title: 'Digital Circuit Foundations', description: 'Mastered logic design, CMOS gates, and Boolean synthesis.', type: 'learning' },
+        { id: 'sj_s2', skillName: 'VLSI Design', monthYear: 'Jan 2025', title: 'FPGA Vivado Labs', description: 'Implemented state machines and UART controllers.', type: 'course' },
+        { id: 'sj_s3', skillName: 'VLSI Design', monthYear: 'Aug 2025', title: 'RISC-V Tape-Out Simulation', description: 'Designed 5-stage CPU with 100% test coverage.', type: 'project' },
+        { id: 'sj_s4', skillName: 'VLSI Design', monthYear: 'Nov 2025', title: 'Started Peer Mentoring', description: 'Helped 42 students crack core hardware placement tests.', type: 'mentoring' }
       ]
     },
     completedGigsCount: 22,
     totalEarnings: 38000,
     studentsMentoredCount: 42,
     couponsBalance: 7,
-    referralCode: 'PRIYA-NITT-99',
+    referralCode: 'SHIVANG-NITAP-99',
     referralsCount: 14,
     communityContributionsCount: 52,
     competitionWinsCount: 4,
     badges: [INITIAL_BADGES[0], INITIAL_BADGES[1], INITIAL_BADGES[6], INITIAL_BADGES[8]],
     reviews: [
       {
-        id: 'rev_p1',
-        mentorId: 'usr_priya_patel',
-        studentId: 'usr_rahul_sharma',
-        studentName: 'Rahul Sharma',
+        id: 'rev_s1',
+        mentorId: 'usr_shivang_kumar',
+        studentId: 'usr_siddhant',
+        studentName: 'Siddhant',
         studentAvatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80',
-        studentCollege: 'IIT Bombay',
+        studentCollege: 'NIT Andhra Pradesh',
         rating: 5,
-        comment: 'Priya helped me understand Verilog testbenches for my hardware IoT lab. Extremely knowledgeable!',
+        comment: 'Shivang helped me understand Verilog testbenches and FPGA clock domains for our campus IoT lab. Extremely knowledgeable and patient!',
         skill: 'VLSI Design Mentorship',
         date: '5 days ago',
-        verifiedInteraction: true
+        verifiedInteraction: true,
+        sessionDurationMins: 60
       }
     ],
     rating: 5.0,
     isPremium: true,
     joinedDate: 'June 2025',
-    location: 'Tiruchirappalli, Tamil Nadu'
-  },
-  {
-    id: 'usr_ananya_deshmukh',
-    name: 'Ananya Deshmukh',
-    email: 'ananya.des@nid.edu',
-    avatar: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&auto=format&fit=crop&q=80',
-    college: 'NID Ahmedabad',
-    branch: 'Product & Visual Design',
-    year: '3rd Year',
-    bio: 'Product designer & Video editor. Done branding for 12+ college fests and tech startups. Helping students craft standout portfolios and reels.',
-    isVerifiedStudent: true,
-    verifiedEmailDomain: 'nid.edu',
-    role: 'mentor',
-    reputationScore: 91,
-    skills: [
-      { name: 'UI/UX Design', category: 'Creative & Freelancing', level: 'Expert', willingToMentor: true, availability: 'Yes, I\'m available', yearsExp: 3 },
-      { name: 'Video Editing', category: 'Creative & Freelancing', level: 'Expert', willingToMentor: true, availability: 'Weekends only', yearsExp: 3 },
-      { name: 'Graphic Design', category: 'Creative & Freelancing', level: 'Advanced', willingToMentor: true, availability: 'Evenings only', yearsExp: 2 },
-      { name: '3D Animation', category: 'Creative & Freelancing', level: 'Intermediate', willingToMentor: false, availability: 'No', yearsExp: 1 }
-    ],
-    interests: ['Micro-Interactions', 'Design Systems', 'Motion Design in After Effects'],
-    portfolio: [
-      {
-        id: 'p_a1',
-        title: 'Fintech Mobile Banking UX Redesign',
-        description: 'Complete end-to-end design system with 60+ responsive screens and interactive micro-animations in Figma.',
-        skillUsed: 'UI/UX Design',
-        date: 'Jan 2026',
-        link: 'https://figma.com/@ananya-design',
-        imageUrl: 'https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=600&auto=format&fit=crop&q=80',
-        mediaType: 'image',
-        category: 'Product Design'
-      }
-    ],
-    certificates: [
-      {
-        id: 'c_a1',
-        courseName: 'Google UX Design Professional Certificate',
-        skill: 'UI/UX Design',
-        issuingOrg: 'Google Career Certificates',
-        startDate: '2025-01-10',
-        endDate: '2025-06-15',
-        issueDate: '2025-06-20',
-        credentialId: 'GOOG-UX-54911',
-        isVerified: true
-      }
-    ],
-    skillJourneys: {
-      'Video Editing': [
-        { id: 'sj_a1', skillName: 'Video Editing', monthYear: 'May 2024', title: 'Premiere Pro Basics', description: 'Learned multi-track editing, transitions, and audio sync.', type: 'learning' },
-        { id: 'sj_a2', skillName: 'Video Editing', monthYear: 'Oct 2024', title: 'DaVinci Color Grading', description: 'Mastered color wheels, LUTs, and dynamic range balancing.', type: 'course' },
-        { id: 'sj_a3', skillName: 'Video Editing', monthYear: 'Jan 2025', title: 'Official Campus Fest Editor', description: 'Directed and edited reels clocking 150k+ views on Instagram.', type: 'project' },
-        { id: 'sj_a4', skillName: 'Video Editing', monthYear: 'Aug 2025', title: 'Mentoring Campus Creators', description: 'Mentored 29 students in storytelling and viral video editing.', type: 'mentoring' }
-      ]
-    },
-    completedGigsCount: 28,
-    totalEarnings: 42000,
-    studentsMentoredCount: 29,
-    couponsBalance: 5,
-    referralCode: 'ANANYA-NID-77',
-    referralsCount: 11,
-    communityContributionsCount: 46,
-    competitionWinsCount: 2,
-    badges: [INITIAL_BADGES[1], INITIAL_BADGES[6], INITIAL_BADGES[8]],
-    reviews: [
-      {
-        id: 'rev_a1',
-        mentorId: 'usr_ananya_deshmukh',
-        studentId: 'usr_rohan_verma',
-        studentName: 'Rohan Verma',
-        studentAvatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80',
-        studentCollege: 'BITS Pilani',
-        rating: 5,
-        comment: 'Ananya did a live critique of my design portfolio. Fixed all visual hierarchy issues in one session!',
-        skill: 'UI/UX Design Mentorship',
-        date: '4 days ago',
-        verifiedInteraction: true
-      }
-    ],
-    rating: 4.95,
-    isPremium: false,
-    joinedDate: 'May 2025',
-    location: 'Ahmedabad, Gujarat'
-  },
-  {
-    id: 'usr_rohan_verma',
-    name: 'Rohan Verma',
-    email: 'rohan.mech@pilani.bits-pilani.ac.in',
-    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80',
-    college: 'BITS Pilani',
-    branch: 'Mechanical Engineering',
-    year: '4th Year',
-    bio: 'Formula Student Chassis Lead & CAD Specialist. Expert in SolidWorks, ANSYS FEA simulations, and 3D printing custom drone frames.',
-    isVerifiedStudent: true,
-    verifiedEmailDomain: 'bits-pilani.ac.in',
-    role: 'mentor',
-    reputationScore: 89,
-    skills: [
-      { name: 'SolidWorks', category: 'Mechanical, Civil & Core Engineering', level: 'Expert', willingToMentor: true, availability: 'Weekends only', yearsExp: 3 },
-      { name: 'ANSYS', category: 'Mechanical, Civil & Core Engineering', level: 'Advanced', willingToMentor: true, availability: 'Evenings only', yearsExp: 2 },
-      { name: 'CAD Design', category: 'Mechanical, Civil & Core Engineering', level: 'Expert', willingToMentor: true, availability: 'Yes, I\'m available', yearsExp: 3 },
-      { name: '3D Printing', category: 'Mechanical, Civil & Core Engineering', level: 'Advanced', willingToMentor: true, availability: 'Weekends only', yearsExp: 2 }
-    ],
-    interests: ['Electric Vehicle Battery Enclosures', 'CFD Aerodynamics', 'Additive Manufacturing'],
-    portfolio: [
-      {
-        id: 'p_r1',
-        title: 'Formula Student Electric Monocoque Chassis',
-        description: 'Carbon fiber monocoque chassis optimized for torsional rigidity with ANSYS structural simulation.',
-        skillUsed: 'SolidWorks',
-        date: 'Nov 2025',
-        imageUrl: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=600&auto=format&fit=crop&q=80',
-        mediaType: 'image',
-        category: 'Automotive CAD'
-      }
-    ],
-    certificates: [
-      {
-        id: 'c_r1',
-        courseName: 'Certified SolidWorks Professional (CSWP)',
-        skill: 'SolidWorks',
-        issuingOrg: 'Dassault Systèmes',
-        startDate: '2025-02-01',
-        endDate: '2025-05-30',
-        issueDate: '2025-06-01',
-        credentialId: 'DS-CSWP-88124',
-        isVerified: true
-      }
-    ],
-    skillJourneys: {
-      'SolidWorks': [
-        { id: 'sj_r1', skillName: 'SolidWorks', monthYear: 'Sept 2024', title: 'Part & Assembly Modeling', description: 'Mastered parametric sketching, mates, and GD&T drawings.', type: 'learning' },
-        { id: 'sj_r2', skillName: 'SolidWorks', monthYear: 'Feb 2025', title: 'Simulation & FEA Stress Analysis', description: 'Conducted structural strain & factor of safety tests.', type: 'course' },
-        { id: 'sj_r3', skillName: 'SolidWorks', monthYear: 'Aug 2025', title: 'Passed CSWP Exam', description: 'Certified as Dassault Professional with 100% score.', type: 'certification' },
-        { id: 'sj_r4', skillName: 'SolidWorks', monthYear: 'Dec 2025', title: 'Mentored FSAE Juniors', description: 'Guided 18 students on CAD modeling best practices.', type: 'mentoring' }
-      ]
-    },
-    completedGigsCount: 14,
-    totalEarnings: 26000,
-    studentsMentoredCount: 18,
-    couponsBalance: 3,
-    referralCode: 'ROHAN-BITS-55',
-    referralsCount: 6,
-    communityContributionsCount: 28,
-    competitionWinsCount: 2,
-    badges: [INITIAL_BADGES[1], INITIAL_BADGES[2], INITIAL_BADGES[8]],
-    reviews: [],
-    rating: 4.85,
-    isPremium: false,
-    joinedDate: 'September 2025',
-    location: 'Pilani, Rajasthan'
+    location: 'Tadepalligudem, Andhra Pradesh'
   }
 ];
 
@@ -447,7 +293,7 @@ export const INITIAL_GIGS: Gig[] = [
       id: 'usr_fest_convenor',
       name: 'Kavya Nair',
       avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&auto=format&fit=crop&q=80',
-      college: 'IIT Delhi',
+      college: 'NIT Andhra Pradesh',
       isVerified: true,
       rating: 4.9
     },
@@ -470,7 +316,7 @@ export const INITIAL_GIGS: Gig[] = [
       id: 'usr_dr_sharma',
       name: 'Arjun Mehta',
       avatar: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&auto=format&fit=crop&q=80',
-      college: 'IIIT Hyderabad',
+      college: 'NIT Andhra Pradesh',
       isVerified: true,
       rating: 4.8
     },
@@ -490,10 +336,10 @@ export const INITIAL_GIGS: Gig[] = [
     locationType: 'Remote',
     urgency: 'Medium',
     postedBy: {
-      id: 'usr_priya_patel',
-      name: 'Priya Patel',
-      avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&auto=format&fit=crop&q=80',
-      college: 'NIT Trichy',
+      id: 'usr_shivang_kumar',
+      name: 'Shivang Kumar',
+      avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80',
+      college: 'NIT Andhra Pradesh',
       isVerified: true,
       rating: 5.0
     },
@@ -513,10 +359,10 @@ export const INITIAL_GIGS: Gig[] = [
     locationType: 'Remote',
     urgency: 'High',
     postedBy: {
-      id: 'usr_rahul_sharma',
-      name: 'Rahul Sharma',
-      avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&auto=format&fit=crop&q=80',
-      college: 'IIT Bombay',
+      id: 'usr_siddhant',
+      name: 'Siddhant',
+      avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80',
+      college: 'NIT Andhra Pradesh',
       isVerified: true,
       rating: 4.9
     },
@@ -534,13 +380,13 @@ export const INITIAL_GIGS: Gig[] = [
     budget: 2200,
     deadline: '3 days',
     locationType: 'On-Campus',
-    campusLocation: 'IIT Bombay Tinkering Lab',
+    campusLocation: 'NIT Andhra Pradesh Innovation Lab',
     urgency: 'High',
     postedBy: {
-      id: 'usr_rohan_verma',
-      name: 'Rohan Verma',
-      avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&auto=format&fit=crop&q=80',
-      college: 'BITS Pilani',
+      id: 'usr_lead_robotics',
+      name: 'Campus Robotics Club',
+      avatar: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=200&auto=format&fit=crop&q=80',
+      college: 'NIT Andhra Pradesh',
       isVerified: true,
       rating: 4.85
     },
@@ -563,7 +409,7 @@ export const INITIAL_GIGS: Gig[] = [
       id: 'usr_council_head',
       name: 'Siddharth Rao',
       avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&auto=format&fit=crop&q=80',
-      college: 'DTU Delhi',
+      college: 'NIT Andhra Pradesh',
       isVerified: true,
       rating: 4.95
     },
@@ -584,7 +430,7 @@ export const INITIAL_COMMUNITIES: Community[] = [
     membersCount: 1420,
     postsCount: 384,
     isJoined: true,
-    featuredMentors: ['Rahul Sharma', 'Tanmay Joshi'],
+    featuredMentors: ['Siddhant', 'Shivang Kumar'],
     topTags: ['React', 'Python', 'FastAPI', 'DSA', 'Next.js']
   },
   {
@@ -596,7 +442,7 @@ export const INITIAL_COMMUNITIES: Community[] = [
     membersCount: 1850,
     postsCount: 512,
     isJoined: true,
-    featuredMentors: ['Rahul Sharma', 'Sneha Roy'],
+    featuredMentors: ['Siddhant', 'Shivang Kumar'],
     topTags: ['PyTorch', 'LLMs', 'PromptEng', 'ComputerVision']
   },
   {
@@ -608,7 +454,7 @@ export const INITIAL_COMMUNITIES: Community[] = [
     membersCount: 920,
     postsCount: 198,
     isJoined: false,
-    featuredMentors: ['Vikramaditya Rao', 'Siddharth Rao'],
+    featuredMentors: ['Siddhant', 'Shivang Kumar'],
     topTags: ['CTF', 'BurpSuite', 'ReverseEng', 'ZeroDay']
   },
   {
@@ -620,7 +466,7 @@ export const INITIAL_COMMUNITIES: Community[] = [
     membersCount: 780,
     postsCount: 165,
     isJoined: true,
-    featuredMentors: ['Priya Patel'],
+    featuredMentors: ['Shivang Kumar'],
     topTags: ['Verilog', 'UVM', 'FPGA', 'ASIC', 'Cadence']
   },
   {
@@ -632,7 +478,7 @@ export const INITIAL_COMMUNITIES: Community[] = [
     membersCount: 840,
     postsCount: 220,
     isJoined: false,
-    featuredMentors: ['Priya Patel'],
+    featuredMentors: ['Shivang Kumar', 'Siddhant'],
     topTags: ['STM32', 'FreeRTOS', 'KiCad', 'ESP32', 'Robotics']
   },
   {
@@ -644,7 +490,7 @@ export const INITIAL_COMMUNITIES: Community[] = [
     membersCount: 1150,
     postsCount: 340,
     isJoined: false,
-    featuredMentors: ['Ananya Deshmukh'],
+    featuredMentors: ['Siddhant'],
     topTags: ['Figma', 'UIUX', 'Branding', 'Blender', 'DesignSystem']
   },
   {
@@ -656,7 +502,7 @@ export const INITIAL_COMMUNITIES: Community[] = [
     membersCount: 960,
     postsCount: 210,
     isJoined: false,
-    featuredMentors: ['Ananya Deshmukh', 'Rahul Sharma'],
+    featuredMentors: ['Siddhant', 'Shivang Kumar'],
     topTags: ['PremierePro', 'DaVinci', 'ReelsPacing', 'AfterEffects']
   },
   {
@@ -668,7 +514,7 @@ export const INITIAL_COMMUNITIES: Community[] = [
     membersCount: 890,
     postsCount: 245,
     isJoined: false,
-    featuredMentors: ['Rohan Verma'],
+    featuredMentors: ['Shivang Kumar'],
     topTags: ['SolidWorks', 'ANSYS', 'EVTech', '3DPrinting']
   },
   {
@@ -680,7 +526,7 @@ export const INITIAL_COMMUNITIES: Community[] = [
     membersCount: 1040,
     postsCount: 280,
     isJoined: false,
-    featuredMentors: ['Aditya Singhania'],
+    featuredMentors: ['Siddhant'],
     topTags: ['ProductMgmt', 'FinancialModel', 'Consulting', 'Tableau']
   },
   {
@@ -692,7 +538,7 @@ export const INITIAL_COMMUNITIES: Community[] = [
     membersCount: 1220,
     postsCount: 310,
     isJoined: true,
-    featuredMentors: ['Rahul Sharma', 'Ananya Deshmukh'],
+    featuredMentors: ['Siddhant', 'Shivang Kumar'],
     topTags: ['Startup', 'PitchDeck', 'CoFounders', 'MVP']
   }
 ];
@@ -702,10 +548,10 @@ export const INITIAL_COMMUNITY_POSTS: CommunityPost[] = [
     id: 'post_1',
     communityId: 'comm_aiml',
     author: {
-      id: 'usr_rahul_sharma',
-      name: 'Rahul Sharma',
-      avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&auto=format&fit=crop&q=80',
-      college: 'IIT Bombay',
+      id: 'usr_siddhant',
+      name: 'Siddhant',
+      avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80',
+      college: 'NIT Andhra Pradesh',
       isVerified: true,
       badge: '🥇 Campus Expert'
     },
@@ -722,15 +568,15 @@ export const INITIAL_COMMUNITY_POSTS: CommunityPost[] = [
     id: 'post_2',
     communityId: 'comm_vlsi',
     author: {
-      id: 'usr_priya_patel',
-      name: 'Priya Patel',
-      avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&auto=format&fit=crop&q=80',
-      college: 'NIT Trichy',
+      id: 'usr_shivang_kumar',
+      name: 'Shivang Kumar',
+      avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80',
+      college: 'NIT Andhra Pradesh',
       isVerified: true,
       badge: '⚡ VLSI Mentor'
     },
     title: 'Poll: Which HDL do you think campus recruiters value the most for Core Hardware roles?',
-    content: 'We are organizing an inter-college RTL workshop next week. Vote on the primary language you want us to focus on for ASIC and FPGA verification labs:',
+    content: 'We are organizing an inter-college RTL workshop next week at NIT Andhra Pradesh. Vote on the primary language you want us to focus on for ASIC and FPGA verification labs:',
     tags: ['VLSI Design', 'Career', 'Hardware'],
     likesCount: 42,
     commentsCount: 15,
@@ -747,10 +593,10 @@ export const INITIAL_COMMUNITY_POSTS: CommunityPost[] = [
     id: 'post_3',
     communityId: 'comm_design',
     author: {
-      id: 'usr_ananya_deshmukh',
-      name: 'Ananya Deshmukh',
-      avatar: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=200&auto=format&fit=crop&q=80',
-      college: 'NID Ahmedabad',
+      id: 'usr_siddhant',
+      name: 'Siddhant',
+      avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80',
+      college: 'NIT Andhra Pradesh',
       isVerified: true,
       badge: '🎨 UI/UX Mentor'
     },
@@ -874,9 +720,8 @@ export const INITIAL_COMPETITIONS: Competition[] = [
       xp: 500
     },
     leaderboardPreview: [
-      { rank: 1, studentName: 'Rahul Sharma', avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80', college: 'IIT Bombay', score: 98 },
-      { rank: 2, studentName: 'Devansh Trivedi', avatar: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100&auto=format&fit=crop&q=80', college: 'BITS Goa', score: 95 },
-      { rank: 3, studentName: 'Neha Kulkarni', avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80', college: 'COEP Pune', score: 92 }
+      { rank: 1, studentName: 'Siddhant', avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80', college: 'NIT Andhra Pradesh', score: 98 },
+      { rank: 2, studentName: 'Shivang Kumar', avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80', college: 'NIT Andhra Pradesh', score: 95 }
     ]
   },
   {
@@ -903,9 +748,8 @@ export const INITIAL_COMPETITIONS: Competition[] = [
       xp: 600
     },
     leaderboardPreview: [
-      { rank: 1, studentName: 'Sneha Roy', avatar: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80', college: 'IIIT Delhi', score: 97 },
-      { rank: 2, studentName: 'Rahul Sharma', avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80', college: 'IIT Bombay', score: 94 },
-      { rank: 3, studentName: 'Aditya Mehta', avatar: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80', college: 'NIT Surat', score: 91 }
+      { rank: 1, studentName: 'Siddhant', avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80', college: 'NIT Andhra Pradesh', score: 97 },
+      { rank: 2, studentName: 'Shivang Kumar', avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80', college: 'NIT Andhra Pradesh', score: 94 }
     ]
   },
   {
@@ -932,8 +776,8 @@ export const INITIAL_COMPETITIONS: Competition[] = [
       xp: 750
     },
     leaderboardPreview: [
-      { rank: 1, studentName: 'Priya Patel', avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&auto=format&fit=crop&q=80', college: 'NIT Trichy', score: 99 },
-      { rank: 2, studentName: 'Varun Reddy', avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&auto=format&fit=crop&q=80', college: 'IIT Madras', score: 96 }
+      { rank: 1, studentName: 'Shivang Kumar', avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80', college: 'NIT Andhra Pradesh', score: 99 },
+      { rank: 2, studentName: 'Siddhant', avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80', college: 'NIT Andhra Pradesh', score: 96 }
     ]
   }
 ];
@@ -942,12 +786,12 @@ export const INITIAL_LEADERBOARD_WEEKLY: LeaderboardEntry[] = [
   {
     id: 'lead_1',
     rank: 1,
-    studentId: 'usr_priya_patel',
-    userId: 'usr_priya_patel',
-    name: 'Priya Patel',
-    avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&auto=format&fit=crop&q=80',
-    college: 'NIT Trichy',
-    branch: 'B.Tech Electrical & Electronics',
+    studentId: 'usr_shivang_kumar',
+    userId: 'usr_shivang_kumar',
+    name: 'Shivang Kumar',
+    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80',
+    college: 'NIT Andhra Pradesh',
+    branch: 'B.Tech Electronics & Communication',
     reputationScore: 98,
     points: 1420,
     completedGigs: 6,
@@ -961,13 +805,13 @@ export const INITIAL_LEADERBOARD_WEEKLY: LeaderboardEntry[] = [
   {
     id: 'lead_2',
     rank: 2,
-    studentId: 'usr_rahul_sharma',
-    userId: 'usr_rahul_sharma',
-    name: 'Rahul Sharma (You)',
-    avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&auto=format&fit=crop&q=80',
-    college: 'IIT Bombay',
+    studentId: 'usr_siddhant',
+    userId: 'usr_siddhant',
+    name: 'Siddhant (You)',
+    avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80',
+    college: 'NIT Andhra Pradesh',
     branch: 'B.Tech Computer Science',
-    reputationScore: 87,
+    reputationScore: 88,
     points: 1290,
     completedGigs: 5,
     gigsCompleted: 5,
@@ -977,101 +821,6 @@ export const INITIAL_LEADERBOARD_WEEKLY: LeaderboardEntry[] = [
     badgesAwarded: ['🥇 Campus Expert', '🐍 Python Lead', '⚡ Hackathon Star'],
     rewardsCoupon: 2,
     isCurrentUser: true
-  },
-  {
-    id: 'lead_3',
-    rank: 3,
-    studentId: 'usr_ananya_deshmukh',
-    userId: 'usr_ananya_deshmukh',
-    name: 'Ananya Deshmukh',
-    avatar: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=200&auto=format&fit=crop&q=80',
-    college: 'NID Ahmedabad',
-    branch: 'M.Des Interaction Design',
-    reputationScore: 94,
-    points: 1180,
-    completedGigs: 7,
-    gigsCompleted: 7,
-    studentsMentored: 5,
-    mentoredCount: 5,
-    badges: ['🥈 Skill Mentor', '🎨 Design Star', '✨ UI Guru'],
-    badgesAwarded: ['🥈 Skill Mentor', '🎨 Design Star', '✨ UI Guru'],
-    rewardsCoupon: 2
-  },
-  {
-    id: 'lead_4',
-    rank: 4,
-    studentId: 'usr_sneha_roy',
-    userId: 'usr_sneha_roy',
-    name: 'Sneha Roy',
-    avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&auto=format&fit=crop&q=80',
-    college: 'IIIT Delhi',
-    branch: 'B.Tech AI & Data Engineering',
-    reputationScore: 89,
-    points: 940,
-    completedGigs: 3,
-    gigsCompleted: 3,
-    studentsMentored: 4,
-    mentoredCount: 4,
-    badges: ['🥈 Skill Mentor', '🤖 ML Specialist'],
-    badgesAwarded: ['🥈 Skill Mentor', '🤖 ML Specialist'],
-    rewardsCoupon: 1
-  },
-  {
-    id: 'lead_5',
-    rank: 5,
-    studentId: 'usr_rohan_verma',
-    userId: 'usr_rohan_verma',
-    name: 'Rohan Verma',
-    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&auto=format&fit=crop&q=80',
-    college: 'BITS Pilani',
-    branch: 'B.E. Mechanical Engineering',
-    reputationScore: 85,
-    points: 880,
-    completedGigs: 4,
-    gigsCompleted: 4,
-    studentsMentored: 3,
-    mentoredCount: 3,
-    badges: ['🥉 Campus Guide', '⚙️ CAD Modeler'],
-    badgesAwarded: ['🥉 Campus Guide', '⚙️ CAD Modeler'],
-    rewardsCoupon: 1
-  },
-  {
-    id: 'lead_6',
-    rank: 6,
-    studentId: 'usr_vikram_rao',
-    userId: 'usr_vikram_rao',
-    name: 'Vikramaditya Rao',
-    avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&auto=format&fit=crop&q=80',
-    college: 'DTU Delhi',
-    branch: 'B.Tech Information Tech',
-    reputationScore: 82,
-    points: 810,
-    completedGigs: 3,
-    gigsCompleted: 3,
-    studentsMentored: 4,
-    mentoredCount: 4,
-    badges: ['🔐 CTF Ace', '🛡️ Pentester'],
-    badgesAwarded: ['🔐 CTF Ace', '🛡️ Pentester'],
-    rewardsCoupon: 1
-  },
-  {
-    id: 'lead_7',
-    rank: 7,
-    studentId: 'usr_kavya_nair',
-    userId: 'usr_kavya_nair',
-    name: 'Kavya Nair',
-    avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&auto=format&fit=crop&q=80',
-    college: 'IIT Delhi',
-    branch: 'B.Tech Chemical Engineering',
-    reputationScore: 78,
-    points: 760,
-    completedGigs: 2,
-    gigsCompleted: 2,
-    studentsMentored: 3,
-    mentoredCount: 3,
-    badges: ['🌱 New Mentor'],
-    badgesAwarded: ['🌱 New Mentor'],
-    rewardsCoupon: 1
   }
 ];
 
@@ -1200,11 +949,11 @@ export const INITIAL_CAMPUS_INSIGHTS: CampusInsights = {
     { skill: 'CAD & SolidWorks', demand: 72, supply: 50 }
   ],
   topColleges: [
-    { college: 'IIT Bombay', studentsCount: 840, gigsCount: 290 },
-    { college: 'NIT Trichy', studentsCount: 620, gigsCount: 210 },
-    { college: 'BITS Pilani', studentsCount: 580, gigsCount: 195 },
-    { college: 'IIIT Hyderabad', studentsCount: 490, gigsCount: 165 },
-    { college: 'DTU Delhi', studentsCount: 450, gigsCount: 140 },
+    { college: 'NIT Andhra Pradesh', studentsCount: 840, gigsCount: 290 },
+    { college: 'IIT Bombay', studentsCount: 620, gigsCount: 210 },
+    { college: 'NIT Trichy', studentsCount: 580, gigsCount: 195 },
+    { college: 'BITS Pilani', studentsCount: 490, gigsCount: 165 },
+    { college: 'IIIT Hyderabad', studentsCount: 450, gigsCount: 140 },
     { college: 'NID Ahmedabad', studentsCount: 380, gigsCount: 130 }
   ]
 };
@@ -1215,7 +964,7 @@ export const INITIAL_NOTIFICATIONS: NotificationItem[] = [
   {
     id: 'n1',
     title: '🎟️ Mentor Coupon Earned!',
-    message: 'You unlocked 1 Mentor Coupon because your referral Ananya successfully verified her institutional college email.',
+    message: 'You unlocked 1 Mentor Coupon because your peer Shivang Kumar successfully verified his institutional college email.',
     timestamp: '15 mins ago',
     type: 'coupon',
     isRead: false,
@@ -1225,7 +974,7 @@ export const INITIAL_NOTIFICATIONS: NotificationItem[] = [
   {
     id: 'n2',
     title: '🤝 Mentorship Request Received',
-    message: 'Amit Kumar (CSE 2nd Year) requested a 45-min Python & FastAPI debugging session with you.',
+    message: 'Shivang Kumar (ECE 4th Year) requested a 45-min Python & FastAPI integration review session with you.',
     timestamp: '1 hour ago',
     type: 'mentor',
     isRead: false,

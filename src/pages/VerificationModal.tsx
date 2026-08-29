@@ -75,31 +75,17 @@ export const VerificationModal: React.FC = () => {
             <div className="flex flex-wrap gap-1.5">
               <button
                 type="button"
-                onClick={() => autofillCollege('rahul.sharma@iitb.ac.in', 'IIT Bombay')}
+                onClick={() => autofillCollege('siddhant.cse@nitandhra.ac.in', 'NIT Andhra Pradesh')}
                 className="px-2.5 py-1 bg-white hover:bg-indigo-50 text-indigo-700 font-semibold rounded-lg border border-slate-200 text-[11px]"
               >
-                IIT Bombay
+                Siddhant (NIT Andhra Pradesh)
               </button>
               <button
                 type="button"
-                onClick={() => autofillCollege('priya.patel@nitt.edu', 'NIT Trichy')}
+                onClick={() => autofillCollege('shivang.ece@nitandhra.ac.in', 'NIT Andhra Pradesh')}
                 className="px-2.5 py-1 bg-white hover:bg-indigo-50 text-indigo-700 font-semibold rounded-lg border border-slate-200 text-[11px]"
               >
-                NIT Trichy
-              </button>
-              <button
-                type="button"
-                onClick={() => autofillCollege('ananya.iyer@bits-pilani.ac.in', 'BITS Pilani')}
-                className="px-2.5 py-1 bg-white hover:bg-indigo-50 text-indigo-700 font-semibold rounded-lg border border-slate-200 text-[11px]"
-              >
-                BITS Pilani
-              </button>
-              <button
-                type="button"
-                onClick={() => autofillCollege('rohan.gupta@dtu.ac.in', 'DTU Delhi')}
-                className="px-2.5 py-1 bg-white hover:bg-indigo-50 text-indigo-700 font-semibold rounded-lg border border-slate-200 text-[11px]"
-              >
-                DTU Delhi
+                Shivang Kumar (NIT Andhra Pradesh)
               </button>
             </div>
           </div>

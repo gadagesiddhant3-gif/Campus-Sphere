@@ -325,11 +325,11 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   const [mentorshipRequests, setMentorshipRequests] = useState<MentorshipRequest[]>([
     {
       id: 'req_1',
-      mentorId: 'usr_rahul_sharma',
-      studentId: 'usr_amit_kumar',
-      studentName: 'Amit Kumar',
-      studentAvatar: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=200&auto=format&fit=crop&q=80',
-      mentorName: 'Rahul Sharma',
+      mentorId: 'usr_siddhant',
+      studentId: 'usr_shivang_kumar',
+      studentName: 'Shivang Kumar',
+      studentAvatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80',
+      mentorName: 'Siddhant',
       mentorAvatar: CURRENT_STUDENT_USER.avatar,
       skill: 'Python',
       topic: 'FastAPI Microservice setup & Async DB queries',
